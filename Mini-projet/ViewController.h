@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    
+IBOutlet UILabel *code;
+IBOutlet UITextField *codeverif;
+IBOutlet UILabel *message;
+   IBOutlet UIImageView* image2iew;
+}
 
 @end
 

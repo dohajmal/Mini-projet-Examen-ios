@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   // _listMatiere=[NSMutableArray new];
+     _listMatieredao=[NSMutableArray new];
     return YES;
 }
 

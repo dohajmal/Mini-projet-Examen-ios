@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C34D5391DE9CFBD0080C924 /* MoyenneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C34D5381DE9CFBD0080C924 /* MoyenneViewController.m */; };
+		1C63DB351DE6E36C003E9ED9 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63DB341DE6E36C003E9ED9 /* ListViewController.m */; };
+		1CAB13731DE75CD10045B416 /* MatiereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAB13721DE75CD10045B416 /* MatiereViewController.m */; };
+		1CAB13771DE761800045B416 /* Matiere.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAB13761DE761800045B416 /* Matiere.m */; };
+		1CE60D961DE9094000E2B7B2 /* MySimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE60D951DE9094000E2B7B2 /* MySimpleTableCell.xib */; };
+		1CF4581A1DE7DFC300F740AE /* MySimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF458191DE7DFC300F740AE /* MySimpleTableCell.m */; };
 		DE3949A01DC642DE00156795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE39499F1DC642DE00156795 /* main.m */; };
 		DE3949A31DC642DE00156795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3949A21DC642DE00156795 /* AppDelegate.m */; };
 		DE3949A61DC642DE00156795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3949A51DC642DE00156795 /* ViewController.m */; };
@@ -14,6 +20,7 @@
 		DE3949AB1DC642DE00156795 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3949AA1DC642DE00156795 /* Images.xcassets */; };
 		DE3949AE1DC642DE00156795 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3949AC1DC642DE00156795 /* LaunchScreen.xib */; };
 		DE3949BA1DC642DF00156795 /* Mini_projetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3949B91DC642DF00156795 /* Mini_projetTests.m */; };
+		DEDD7EB21DFF356D000331AE /* 125897.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDD7EB11DFF356D000331AE /* 125897.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C34D5371DE9CFBD0080C924 /* MoyenneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoyenneViewController.h; path = "Mini-projet.xcodeproj/../MoyenneViewController.h"; sourceTree = SOURCE_ROOT; };
+		1C34D5381DE9CFBD0080C924 /* MoyenneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoyenneViewController.m; path = "Mini-projet.xcodeproj/../MoyenneViewController.m"; sourceTree = SOURCE_ROOT; };
+		1C63DB341DE6E36C003E9ED9 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = "Mini-projet.xcodeproj/../ListViewController.m"; sourceTree = SOURCE_ROOT; };
+		1C63DB361DE6E374003E9ED9 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = "Mini-projet.xcodeproj/../ListViewController.h"; sourceTree = SOURCE_ROOT; };
+		1CAB13711DE75CD10045B416 /* MatiereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatiereViewController.h; path = "Mini-projet.xcodeproj/../MatiereViewController.h"; sourceTree = SOURCE_ROOT; };
+		1CAB13721DE75CD10045B416 /* MatiereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatiereViewController.m; path = "Mini-projet.xcodeproj/../MatiereViewController.m"; sourceTree = SOURCE_ROOT; };
+		1CAB13751DE761800045B416 /* Matiere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matiere.h; path = "Mini-projet.xcodeproj/../Matiere.h"; sourceTree = SOURCE_ROOT; };
+		1CAB13761DE761800045B416 /* Matiere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Matiere.m; path = "Mini-projet.xcodeproj/../Matiere.m"; sourceTree = SOURCE_ROOT; };
+		1CE60D951DE9094000E2B7B2 /* MySimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MySimpleTableCell.xib; path = ../MySimpleTableCell.xib; sourceTree = "<group>"; };
+		1CF458181DE7DFC300F740AE /* MySimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySimpleTableCell.h; path = "Mini-projet.xcodeproj/../MySimpleTableCell.h"; sourceTree = SOURCE_ROOT; };
+		1CF458191DE7DFC300F740AE /* MySimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySimpleTableCell.m; path = "Mini-projet.xcodeproj/../MySimpleTableCell.m"; sourceTree = SOURCE_ROOT; };
 		DE39499A1DC642DE00156795 /* Mini-projet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini-projet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE39499E1DC642DE00156795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE39499F1DC642DE00156795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +58,7 @@
 		DE3949B31DC642DF00156795 /* Mini-projetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini-projetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3949B81DC642DF00156795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE3949B91DC642DF00156795 /* Mini_projetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mini_projetTests.m; sourceTree = "<group>"; };
+		DEDD7EB11DFF356D000331AE /* 125897.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 125897.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +79,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CAB13741DE760630045B416 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CAB13751DE761800045B416 /* Matiere.h */,
+				1CAB13761DE761800045B416 /* Matiere.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		DE3949911DC642DE00156795 = {
 			isa = PBXGroup;
 			children = (
+				DEDD7EB11DFF356D000331AE /* 125897.png */,
 				DE39499C1DC642DE00156795 /* Mini-projet */,
 				DE3949B61DC642DF00156795 /* Mini-projetTests */,
 				DE39499B1DC642DE00156795 /* Products */,
@@ -81,10 +110,10 @@
 		DE39499C1DC642DE00156795 /* Mini-projet */ = {
 			isa = PBXGroup;
 			children = (
+				1CAB13741DE760630045B416 /* Model */,
+				DE3949C41DC6603700156795 /* Controller */,
 				DE3949A11DC642DE00156795 /* AppDelegate.h */,
 				DE3949A21DC642DE00156795 /* AppDelegate.m */,
-				DE3949A41DC642DE00156795 /* ViewController.h */,
-				DE3949A51DC642DE00156795 /* ViewController.m */,
 				DE3949A71DC642DE00156795 /* Main.storyboard */,
 				DE3949AA1DC642DE00156795 /* Images.xcassets */,
 				DE3949AC1DC642DE00156795 /* LaunchScreen.xib */,
@@ -117,6 +146,24 @@
 				DE3949B81DC642DF00156795 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE3949C41DC6603700156795 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C34D5371DE9CFBD0080C924 /* MoyenneViewController.h */,
+				1C34D5381DE9CFBD0080C924 /* MoyenneViewController.m */,
+				1CE60D951DE9094000E2B7B2 /* MySimpleTableCell.xib */,
+				1CF458181DE7DFC300F740AE /* MySimpleTableCell.h */,
+				1CF458191DE7DFC300F740AE /* MySimpleTableCell.m */,
+				1CAB13711DE75CD10045B416 /* MatiereViewController.h */,
+				1CAB13721DE75CD10045B416 /* MatiereViewController.m */,
+				1C63DB361DE6E374003E9ED9 /* ListViewController.h */,
+				1C63DB341DE6E36C003E9ED9 /* ListViewController.m */,
+				DE3949A51DC642DE00156795 /* ViewController.m */,
+				DE3949A41DC642DE00156795 /* ViewController.h */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +248,9 @@
 			files = (
 				DE3949A91DC642DE00156795 /* Main.storyboard in Resources */,
 				DE3949AE1DC642DE00156795 /* LaunchScreen.xib in Resources */,
+				1CE60D961DE9094000E2B7B2 /* MySimpleTableCell.xib in Resources */,
 				DE3949AB1DC642DE00156795 /* Images.xcassets in Resources */,
+				DEDD7EB21DFF356D000331AE /* 125897.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAB13731DE75CD10045B416 /* MatiereViewController.m in Sources */,
+				1CAB13771DE761800045B416 /* Matiere.m in Sources */,
 				DE3949A61DC642DE00156795 /* ViewController.m in Sources */,
 				DE3949A31DC642DE00156795 /* AppDelegate.m in Sources */,
+				1C34D5391DE9CFBD0080C924 /* MoyenneViewController.m in Sources */,
+				1C63DB351DE6E36C003E9ED9 /* ListViewController.m in Sources */,
+				1CF4581A1DE7DFC300F740AE /* MySimpleTableCell.m in Sources */,
 				DE3949A01DC642DE00156795 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mini-projet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mini-projet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +472,7 @@
 				DE3949BF1DC642DF00156795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE3949C01DC642DF00156795 /* Build configuration list for PBXNativeTarget "Mini-projetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +481,7 @@
 				DE3949C21DC642DF00156795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
